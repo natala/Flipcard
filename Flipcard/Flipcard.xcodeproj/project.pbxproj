@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		904F674E1E49DDB2009F5E2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F674D1E49DDB2009F5E2A /* AppDelegate.swift */; };
-		904F67501E49DDB2009F5E2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F674F1E49DDB2009F5E2A /* ViewController.swift */; };
-		904F67531E49DDB2009F5E2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904F67511E49DDB2009F5E2A /* Main.storyboard */; };
 		904F67561E49DDB2009F5E2A /* Flipcard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 904F67541E49DDB2009F5E2A /* Flipcard.xcdatamodeld */; };
 		904F67581E49DDB2009F5E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904F67571E49DDB2009F5E2A /* Assets.xcassets */; };
 		904F675B1E49DDB2009F5E2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904F67591E49DDB2009F5E2A /* LaunchScreen.storyboard */; };
 		904F67661E49DDB2009F5E2A /* FlipcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F67651E49DDB2009F5E2A /* FlipcardTests.swift */; };
+		904F67721E49E9AA009F5E2A /* CollectionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F67711E49E9AA009F5E2A /* CollectionsTableViewController.swift */; };
+		904F67761E4A19B7009F5E2A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F67751E4A19B7009F5E2A /* CollectionViewController.swift */; };
+		904F67791E4A1C16009F5E2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904F67771E4A1C16009F5E2A /* Main.storyboard */; };
+		904F677C1E4B525D009F5E2A /* CardDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F677B1E4B525D009F5E2A /* CardDataModels.swift */; };
+		904F67871E4B6CF0009F5E2A /* CardDataModels+Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F67861E4B6CF0009F5E2A /* CardDataModels+Initializer.swift */; };
+		90D749B61E4B9D7B00DE775A /* collections.json in Resources */ = {isa = PBXBuildFile; fileRef = 90D749B51E4B9D7B00DE775A /* collections.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +33,6 @@
 /* Begin PBXFileReference section */
 		904F674A1E49DDB2009F5E2A /* Flipcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		904F674D1E49DDB2009F5E2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		904F674F1E49DDB2009F5E2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		904F67521E49DDB2009F5E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		904F67551E49DDB2009F5E2A /* Flipcard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flipcard.xcdatamodel; sourceTree = "<group>"; };
 		904F67571E49DDB2009F5E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		904F675A1E49DDB2009F5E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +40,12 @@
 		904F67611E49DDB2009F5E2A /* FlipcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		904F67651E49DDB2009F5E2A /* FlipcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipcardTests.swift; sourceTree = "<group>"; };
 		904F67671E49DDB2009F5E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904F67711E49E9AA009F5E2A /* CollectionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionsTableViewController.swift; sourceTree = "<group>"; };
+		904F67751E4A19B7009F5E2A /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		904F67781E4A1C16009F5E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		904F677B1E4B525D009F5E2A /* CardDataModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDataModels.swift; sourceTree = "<group>"; };
+		904F67861E4B6CF0009F5E2A /* CardDataModels+Initializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CardDataModels+Initializer.swift"; sourceTree = "<group>"; };
+		90D749B51E4B9D7B00DE775A /* collections.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = collections.json; path = Resources/collections.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +87,16 @@
 		904F674C1E49DDB2009F5E2A /* Flipcard */ = {
 			isa = PBXGroup;
 			children = (
+				904F677A1E4B5200009F5E2A /* Model */,
+				904F67771E4A1C16009F5E2A /* Main.storyboard */,
+				904F67711E49E9AA009F5E2A /* CollectionsTableViewController.swift */,
+				904F67751E4A19B7009F5E2A /* CollectionViewController.swift */,
 				904F674D1E49DDB2009F5E2A /* AppDelegate.swift */,
-				904F674F1E49DDB2009F5E2A /* ViewController.swift */,
-				904F67511E49DDB2009F5E2A /* Main.storyboard */,
 				904F67571E49DDB2009F5E2A /* Assets.xcassets */,
 				904F67591E49DDB2009F5E2A /* LaunchScreen.storyboard */,
 				904F675C1E49DDB2009F5E2A /* Info.plist */,
 				904F67541E49DDB2009F5E2A /* Flipcard.xcdatamodeld */,
+				90D749B41E4B9D5000DE775A /* Resources */,
 			);
 			path = Flipcard;
 			sourceTree = "<group>";
@@ -97,6 +108,23 @@
 				904F67671E49DDB2009F5E2A /* Info.plist */,
 			);
 			path = FlipcardTests;
+			sourceTree = "<group>";
+		};
+		904F677A1E4B5200009F5E2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				904F677B1E4B525D009F5E2A /* CardDataModels.swift */,
+				904F67861E4B6CF0009F5E2A /* CardDataModels+Initializer.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		90D749B41E4B9D5000DE775A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90D749B51E4B9D7B00DE775A /* collections.json */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +212,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D749B61E4B9D7B00DE775A /* collections.json in Resources */,
+				904F67791E4A1C16009F5E2A /* Main.storyboard in Resources */,
 				904F675B1E49DDB2009F5E2A /* LaunchScreen.storyboard in Resources */,
 				904F67581E49DDB2009F5E2A /* Assets.xcassets in Resources */,
-				904F67531E49DDB2009F5E2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				904F67501E49DDB2009F5E2A /* ViewController.swift in Sources */,
+				904F67721E49E9AA009F5E2A /* CollectionsTableViewController.swift in Sources */,
+				904F67871E4B6CF0009F5E2A /* CardDataModels+Initializer.swift in Sources */,
+				904F67761E4A19B7009F5E2A /* CollectionViewController.swift in Sources */,
+				904F677C1E4B525D009F5E2A /* CardDataModels.swift in Sources */,
 				904F67561E49DDB2009F5E2A /* Flipcard.xcdatamodeld in Sources */,
 				904F674E1E49DDB2009F5E2A /* AppDelegate.swift in Sources */,
 			);
@@ -229,20 +261,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		904F67511E49DDB2009F5E2A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				904F67521E49DDB2009F5E2A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		904F67591E49DDB2009F5E2A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				904F675A1E49DDB2009F5E2A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		904F67771E4A1C16009F5E2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904F67781E4A1C16009F5E2A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -361,11 +393,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Flipcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nz.Flipcard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -419,6 +454,7 @@
 				904F676C1E49DDB2009F5E2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		904F676D1E49DDB2009F5E2A /* Build configuration list for PBXNativeTarget "FlipcardTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +463,7 @@
 				904F676F1E49DDB2009F5E2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

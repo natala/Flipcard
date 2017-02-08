@@ -1,0 +1,74 @@
+[
+ {
+ "name": "Sample Collection",
+ "id": "uniqueId",
+ "cards": [
+           {
+           "question": {
+           "text": "Sample question 1",
+           "img": "image.jpg"
+           },
+           "answer": {
+           "text": "Sample answer 1",
+           "img": "image.jpg"
+           }
+           },
+           {
+           "question": {
+           "text": "Sample question 2",
+           "img": "image.jpg"
+           },
+           "answer": {
+           "text": "Sample answer 2",
+           "img": "image.jpg"
+           }
+           },
+           {
+           "question": {
+           "text": "Sample question 3",
+           "img": "image.jpg"
+           },
+           "answer": {
+           "text": "Sample answer 3",
+           "img": "image.jpg"
+           }
+           }
+           ]
+ },
+ {
+ "name": "Sample Collection 2",
+ "id": "uniqueId2",
+ "cards": [
+           {
+           "question": {
+           "text": "Sample question 1",
+           "img": "image.jpg"
+           },
+           "answer": {
+           "text": "Sample answer 1",
+           "img": "image.jpg"
+           }
+           },
+           {
+           "question": {
+           "text": "Sample question 2",
+           "img": "image.jpg"
+           },
+           "answer": {
+           "text": "Sample answer 2",
+           "img": "image.jpg"
+           }
+           },
+           {
+           "question": {
+           "text": "Sample question 3",
+           "img": "image.jpg"
+           },
+           "answer": {
+           "text": "Sample answer 3",
+           "img": "image.jpg"
+           }
+           }
+           ]
+ }
+ ]
