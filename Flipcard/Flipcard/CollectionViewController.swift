@@ -47,10 +47,7 @@ class CollectionViewController: UIViewController, UITextFieldDelegate {
             return
         }
         if let name = nameTextField.text {
-            let deckDict = ["name": name, "id": "created id"]
-            // TOODO: NAT -  there is sth wrong with that
-            let deck = try? CardDeck(deckDict)
-            self.cardDeck = deck ?? nil
+            cardDeck = CardDeck(name: name, id:"id placeholder")
         }
     }
     

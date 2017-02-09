@@ -168,7 +168,7 @@ class CollectionsTableViewController: UITableViewController {
         if let array = jsonArray as? [Any] {
             for object in array {
                 if let cardDeck = try? CardDeck(object as! [String : Any]) {
-                    decks.append(cardDeck!)
+                    decks.append(cardDeck)
                 }
             }
         }
